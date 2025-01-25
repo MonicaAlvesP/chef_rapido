@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/09/19/29/eat-2834549_1280.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+.navegation {
+    height: 10vh;
+    width: 60%;
+    background: #20350A;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+
+        li {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
